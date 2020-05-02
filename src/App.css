@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.App {
+    margin: 25px;
+    padding: 0 25px 25px 25px;
+    width: 400px;
+    border: 1px solid #eee;
+}
+
+h1 {
+    font-size: 2em;
+    color: #f64c72;
+}
+
+b, .b {
+    font-weight: bold;
+}
+
+ul {
+    margin: 25px 0;
+    list-style: none;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.emoji-buttons {
+    width: 50px;
+    display: inline-block;
+}
+
+.emoji-button {
+    margin-right: 5px;
+    font-size: 0.75em;
+    cursor: pointer;
+}
+
+.fulfilled {
+    text-decoration: line-through;
+}
+
+form {
+    padding: 20px;
+    text-align: right;
+    background: #eee;
+    border: 2px solid lightgrey;
+}
+
+input {
+    font-size: 1em;
+}
+
+input[type="text"] {
+    margin-bottom: 5px;
+    padding: 5px 8px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+input[type="button"], input[type="submit"] {
+    padding: 5px 10px;
+    background: lightgrey;
+    border: 1px solid grey;
+    border-radius: 3px;
+    box-shadow: 2px 2px teal;
+    cursor: pointer;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover {
+    background: yellow;
+}
+
+.footer-buttons {
+    padding-top: 25px;
+    border-top: 1px solid #eee;
+}
