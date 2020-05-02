@@ -99,7 +99,7 @@ class Dreams extends React.Component {
                                 }
                                 {dream.fulfilled === 1 &&
                                     <div className="emoji-buttons">
-                                        <span className="emoji" onClick={() => this.toggleDream(index)} title="Unmark as fulfilled" role="img" aria-label="jsx-a11y/accessible-emoji">💭</span>
+                                        <span className="emoji-button" onClick={() => this.toggleDream(index)} title="Unmark as fulfilled" role="img" aria-label="jsx-a11y/accessible-emoji">💭</span>
                                     </div>
                                 }
                                 <span className={(dream.fulfilled === 1) ? 'fulfilled' : ''}>{dream.content}</span>
