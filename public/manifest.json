@@ -1,6 +1,6 @@
 {
   "short_name": "React Dreams",
-  "name": "A React app for managing your dreams",
+  "name": "A React app to manage your dreams",
   "icons": [
     {
       "src": "favicon.ico",
