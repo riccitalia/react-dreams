@@ -33,6 +33,6 @@ Visit `http://localhost:3000` and start experimenting!
 
 ### Notes
 
-This web application exists already with a similar style and functionality on [Glitch](https://glitch.com) using Node instead of React.
+I have seen a similar web application working with Node instead of React on [Glitch](https://glitch.com/~spiny-tangy-fedora) and I have adapted the idea for this project.
 
 Open an issue if you find a bug or create a pull request if you have a solution. Alternatively, drop me a [message](mailto:ciao@riccitalia.com) and let me know your feedback or questions!
