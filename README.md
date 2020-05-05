@@ -4,7 +4,7 @@ A web application based on React's npx tool [create-react-app](https://create-re
 
 ### Description
 
-This basic web application shows a pre-defined list of dreams. You can add your own dreams to the list, mark them as fulfilled/not fulfilled or delete them.
+This basic web application shows a pre-defined list of dreams. You can add your own dreams to the list, mark them as fulfilled/not fulfilled or delete them. Try it out on [CodePen](https://codepen.io/riccitalia/pen/KKdZVyZ)!
 
 React is managing the list in a state array of objects.
 
