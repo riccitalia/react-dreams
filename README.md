@@ -1,38 +1,17 @@
-## React Dreams
+## Vue Dreams
 
-A web application based on React's npx tool [create-react-app](https://create-react-app.dev).
+Created with [create-react-app](https://create-react-app.dev).
 
-### Description
-
-This basic web application shows a pre-defined list of dreams. You can add your own dreams to the list, mark them as fulfilled/not fulfilled or delete them. Try it out on [CodePen](https://codepen.io/riccitalia/pen/KKdZVyZ)!
-
-React is managing the list in a state array of objects.
-
-### Learn
-
-Visit my [website](https://riccitalia.com) and follow the tutorial on how to create this web application step by step.
-
-### Recommendations
-
-When I was starting to learn React I spent some hours and read the docs carefully. It's necessary to understand the concepts behind this framework and to become familiar with JSX.
-
-There are two major sources to get started:
-1. The official website of React: [reactjs.org](https://reactjs.org/docs/getting-started.html)
-2. The npx tool create-react-app: [create-react-app.dev](https://create-react-app.dev)
-
-### Usage
-
-```
+```bash
+# Clone repository and enter it
 git clone https://github.com/riccitalia/react-dreams.git
 cd react-dreams
+
+# Install dependencies
 npm install
+
+# Serve at localhost:3000
 npm start
 ```
 
-Visit `http://localhost:3000` and start experimenting!
-
-### Notes
-
-I have seen a similar web application working with Node instead of React on [Glitch](https://glitch.com/~spiny-tangy-fedora) and I have adapted the idea for this project.
-
-Open an issue if you find a bug or create a pull request if you have a solution. Alternatively, drop me a [message](mailto:ciao@riccitalia.com) and let me know your feedback or questions!
+Check out the result on [CodePen](https://codepen.io/riccitalia/pen/KKdZVyZ)!
